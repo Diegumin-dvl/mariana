@@ -1,0 +1,57 @@
+//Para los estilos principales de contenido.
+.hero {
+    background: #dbc0c0;
+    padding: 60px 0;
+    text-align: center;
+
+    h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin: 20px 0;
+    }
+}
+
+.tratamientos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .tratamiento {
+        width: 30%;
+        margin-bottom: 20px;
+        text-align: center;
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    }
+}
+
+.btn{
+background-color: #ff3a3a;
+color: white;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+button:hover{
+    background-color: aqua;
+}

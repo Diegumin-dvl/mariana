@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #ff2e2e;
+}
+
+header {
+  background: #ecb3b3;
+  padding: 20px 0;
+  border-bottom: 1px solid #f39e9e;
+}
+header .navbar .navbar-brand img {
+  width: 150px;
+}
+
+footer {
+  background: rgba(255, 175, 175, 0.8784313725);
+  color: #000000;
+  padding: 20px 0;
+  text-align: center;
+}
+footer .contact-info p {
+  margin-bottom: 10px;
+}
+
+.hero {
+  background: #dbc0c0;
+  padding: 60px 0;
+  text-align: center;
+}
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.tratamientos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tratamientos .tratamiento {
+  width: 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.tratamientos .tratamiento img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.tratamientos .tratamiento h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.tratamientos .tratamiento p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.btn {
+  background-color: #ff3a3a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+/*# sourceMappingURL=styles.css.map */
